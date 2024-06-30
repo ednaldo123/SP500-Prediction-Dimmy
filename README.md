@@ -62,21 +62,25 @@ Os treinos foram realizados em um Apple Macbook Pro, Chip M2, 8gb Ram, 256gb Ssd
 #### LSTM
 - Gráfico de Previsões: Plota as previsões do modelo contra os valores reais
   <p align="center">
-  <img src="(https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/lstm/plotlstm2.png)">
-</p>
+  <img src="https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/lstm/plotlstm2.png">
+  </p>
+
 - Gráfico de Perda: Plota a perda do treinamento e da validação ao longo das épocas
   <p align="center">
-  <img src="(https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/lstm/plotlstm.png)">
-</p>
+  <img src="https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/lstm/plotlstm.png">
+  </p>
+
 #### Random Forest
 - Gráfico de Previsões vs Valores Reais: Plota as previsões do modelo contra os valores reais
   <p align="center">
-  <img src="(https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/RandomForest/plotrandomforest2.png)">
-</p>
+  <img src="https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/RandomForest/plotrandomforest2.png">
+  </p>
+
 - Gráfico de Loss: Plota o MSE em função do número de árvores
   <p align="center">
-  <img src="(https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/RandomForest/plotrandomforest1.png)">
-</p>
+  <img src="https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/RandomForest/plotrandomforest1.png">
+  </p>
+
 ## Instruções de Uso
 
 ### Requisitos
@@ -86,6 +90,7 @@ Os treinos foram realizados em um Apple Macbook Pro, Chip M2, 8gb Ram, 256gb Ssd
 ### Instalação
 Clone o repositório e instale as dependências:
 
-git clone https://github.com/seu_usuario/seu_repositorio.git](https://github.com/ednaldo123/SP500-Prediction-Dimmy.git)
+```bash
+git clone https://github.com/ednaldo123/SP500-Prediction-Dimmy.git
 cd SP500-Prediction-Dimmy
 pip install -r requirements.txt
