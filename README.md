@@ -1,3 +1,33 @@
+# Previsão do Índice S&P 500 Utilizando Modelos de LSTM e Random Forest
+
+## Resumo
+A previsão da tendência do mercado de ações pode trazer benefícios significativos, como o aumento da riqueza e a prevenção de perdas financeiras. Este estudo compara dois algoritmos de aprendizado de máquina, LSTM (Long Short-Term Memory) e Random Forest, na previsão do índice S&P 500. Utilizando dados históricos do S&P 500, analisamos a data e o valor de fechamento para prever futuras tendências de preços. Os resultados mostraram que o modelo LSTM teve um desempenho superior ao do Random Forest.
+
+## Introdução
+Prever a tendência do mercado de ações pode trazer benefícios significativos para as pessoas, permitindo-lhes potencialmente aumentar sua riqueza ou evitar perdas substanciais. Atualmente, o aprendizado de máquina tornou-se um dos tópicos mais quentes globalmente, com um número crescente de estudos utilizando modelos de aprendizado de máquina para investigação. Este estudo compara o desempenho na previsão entre dois algoritmos de aprendizado de máquina proeminentes: LSTM e Random Forest.
+
+## Metodologia
+
+### LSTM
+As redes LSTM são projetadas para capturar dependências de longo prazo em dados sequenciais. Utilizamos a biblioteca TensorFlow e a interface Keras para construir e treinar a rede neural LSTM. A rede foi configurada para usar sequências de 60 dias para prever o valor de fechamento do dia seguinte. 
+
+#### Ferramentas Utilizadas:
+- NumPy
+- Pandas
+- MinMaxScaler
+- Matplotlib
+- TensorFlow (Keras)
+- Sequential, LSTM, Dense, Dropout
+
+#### Treinamento e Construção:
+- Dados divididos em 80% para treino e 20% para teste
+- Sequências de 60 dias utilizadas como entrada no modelo
+- Dropout de 20% para evitar overfitting
+- Funções de ativação: Sigmoid e Tanh
+- Batch size: 32
+- Épocas: 50
+- Otimizador: Adam
+
 ### Random Forest
 O modelo Random Forest combina múltiplas árvores de decisão para melhorar a precisão preditiva. Utilizamos a biblioteca Scikit-learn para construir e treinar o modelo Random Forest.
 
