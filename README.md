@@ -53,10 +53,10 @@ Os treinos foram realizados em um Apple Macbook Pro, Chip M2, 8gb Ram, 256gb Ssd
 - R²: 0.83
 
 ### Random Forest
-- MAE: 48.48
-- MSE: 3819.25
-- RMSE: 61.80
-- R²: 0.98
+- MAE: 28.05
+- MSE: 1188.89
+- RMSE: 34.48
+- R²: 0.94
 
 ### Gráficos
 #### LSTM
@@ -73,12 +73,12 @@ Os treinos foram realizados em um Apple Macbook Pro, Chip M2, 8gb Ram, 256gb Ssd
 #### Random Forest
 - Gráfico de Previsões vs Valores Reais: Plota as previsões do modelo contra os valores reais
   <p align="center">
-  <img src="https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/RandomForest/plotrandomforest2.png">
+  <img src="https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/RandomForest/randomforest2.png">
   </p>
 
 - Gráfico de Loss: Plota o MSE em função do número de árvores
   <p align="center">
-  <img src="https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/RandomForest/plotrandomforest1.png">
+  <img src="https://github.com/ednaldo123/SP500-Prediction-Dimmy/blob/main/plots/RandomForest/randomforest1.png">
   </p>
 
 ## Instruções de Uso
