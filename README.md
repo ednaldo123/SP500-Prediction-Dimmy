@@ -1,8 +1,7 @@
 # Previsão do Índice S&P 500 Utilizando Modelos de LSTM e Random Forest
 
 ## Resumo
-A previsão da tendência do mercado de ações pode trazer benefícios significativos, como o aumento da riqueza e a prevenção de perdas financeiras. Este estudo compara dois algoritmos de aprendizado de máquina, LSTM (Long Short-Term Memory) e Random Forest, na previsão do índice S&P 500. Utilizando dados históricos do S&P 500, analisamos a data e o valor de fechamento para prever futuras tendências de preços. Os resultados mostraram que o modelo LSTM teve um desempenho superior ao do Random Forest.
-
+A previsão da tendência do mercado de ações pode trazer benefícios significativos, como o aumento da riqueza e a prevenção de perdas financeiras. Este estudo compara dois algoritmos de aprendizado de máquina, LSTM (Long Short-Term Memory) e Random Forest, na previsão do índice S&P 500. Utilizando dados históricos do S&P 500, analisamos a data e o valor de fechamento para prever futuras tendências de preços. Os resultados mostraram que o modelo RandomForest teve um desempenho superior ao do LSTM.
 ## Introdução
 Prever a tendência do mercado de ações pode trazer benefícios significativos para as pessoas, permitindo-lhes potencialmente aumentar sua riqueza ou evitar perdas substanciais. Atualmente, o aprendizado de máquina tornou-se um dos tópicos mais quentes globalmente, com um número crescente de estudos utilizando modelos de aprendizado de máquina para investigação. Este estudo compara o desempenho na previsão entre dois algoritmos de aprendizado de máquina proeminentes: LSTM e Random Forest.
 
